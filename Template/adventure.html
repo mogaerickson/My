@@ -1,5 +1,0 @@
-{% extends "base.html" %}{% block title %}Adventure{% endblock %}
-{% block content %}<section class="hero adventure"><div class="eyebrow">THE FIRST STEP</div><h1>Welcome, <em>{{ character['name'] }}</em></h1>
-<p class="lead">The realm is still being built. Your character is saved and ready for the next development stage.</p>
-<div class="character-card"><div class="avatar">✧</div><div><small>ADVENTURER STATUS</small><h2>{{ character['name'] }}</h2><p>{{ character['class'] }} · Level {{ character['level'] }} · {{ character['xp'] }} XP</p></div><div class="stats"><span>♥ {{ character['hp'] }} HP</span><span>◈ {{ character['coins'] }} coins</span></div></div>
-<div class="notice">Stage 2 will add the interactive world map, NPCs, and exploration.</div><a class="button ghost" href="{{ url_for('index') }}">← Back to home</a></section>{% endblock %}

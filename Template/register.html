@@ -1,5 +1,0 @@
-{% extends "base.html" %}{% block title %}Create Account{% endblock %}
-{% block content %}<section class="form-card"><div class="eyebrow">START YOUR STORY</div><h1>Create account</h1><p class="muted">Set up your adventurer account.</p>
-<form method="post"><label>Username</label><input name="username" minlength="3" maxlength="30" required autocomplete="username" placeholder="Choose a username">
-<label>Password</label><input type="password" name="password" minlength="8" required autocomplete="new-password" placeholder="At least 8 characters">
-<button class="button primary full">Create account</button></form><p class="muted">Already registered? <a href="{{ url_for('login') }}">Log in</a></p></section>{% endblock %}

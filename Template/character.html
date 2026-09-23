@@ -1,8 +1,0 @@
-{% extends "base.html" %}{% block title %}Create Character{% endblock %}
-{% block content %}<section class="form-card wide"><div class="eyebrow">CHOOSE YOUR DESTINY</div><h1>Create your hero</h1><p class="muted">Pick a name and a class. You can expand the class system in a later stage.</p>
-<form method="post"><label>Character name</label><input name="name" minlength="2" maxlength="18" required placeholder="e.g. Aerin">
-<label>Choose class</label><div class="class-options">
-<label class="class-option"><input type="radio" name="class" value="Warrior" required><b>⚔ Warrior</b><small>Steadfast and resilient</small></label>
-<label class="class-option"><input type="radio" name="class" value="Mage"><b>✧ Mage</b><small>Wielder of arcane power</small></label>
-<label class="class-option"><input type="radio" name="class" value="Archer"><b>➶ Archer</b><small>Swift and precise</small></label>
-</div><button class="button primary full">Create my adventurer</button></form></section>{% endblock %}

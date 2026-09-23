@@ -1,5 +1,0 @@
-{% extends "base.html" %}{% block title %}Log In{% endblock %}
-{% block content %}<section class="form-card"><div class="eyebrow">WELCOME BACK, ADVENTURER</div><h1>Log in</h1><p class="muted">Continue where your journey paused.</p>
-<form method="post"><label>Username</label><input name="username" required autocomplete="username">
-<label>Password</label><input type="password" name="password" required autocomplete="current-password">
-<button class="button primary full">Enter the realm</button></form><p class="muted">New here? <a href="{{ url_for('register') }}">Create an account</a></p></section>{% endblock %}
